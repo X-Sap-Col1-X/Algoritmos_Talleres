@@ -1,0 +1,10 @@
+Algoritmo conversion_pesos_dolares_euros
+	Definir Pesos, Dolares, Euros Como Real
+	Escribir 'Digite un Valor en Pesos colombianos'
+	Leer Pesos
+	Dolares <- Pesos/4000
+	Euros <- Pesos/4500
+	Escribir 'El Valor ingresado en Pesos colombianos es: ', Pesos
+	Escribir 'La Conversion en Dolares es: ', Dolares
+	Escribir 'La Conversion en Euros es: ', Euros
+FinAlgoritmo

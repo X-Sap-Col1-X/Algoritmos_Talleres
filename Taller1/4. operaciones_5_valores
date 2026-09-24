@@ -1,0 +1,28 @@
+Algoritmo operaciones_5_valores
+	Definir v1, v2, v3, v4, v5, Suma, Restal, Resta2, Mult, Div Como Real
+	Escribir 'Digite el Valor1, no se admiten letras'
+	Leer vl
+	Escribir 'Digite el Valor2, no se admiten letras'
+	Leer v2
+	Escribir 'Digite el Valor3, no se admiten letras'
+	Leer v3
+	Escribir 'Digite el Valor4, no se admiten letras'
+	Leer v4
+	Escribir 'Digite el Valor5, no se admiten letras'
+	Leer v5
+	Suma <- (v1+v2+v3+v4tv5)
+	Restal <- (Suma-v1-v2-v3)
+	Resta2 <- (Suma-v4-v5)
+	Mult <- (Restal*Resta2)
+	Div <- (Suma/Mult)
+	Escribir 'El Primer valor ingresado fue: ', v1
+	Escribir 'El Segundo valor ingresado fue: ', v2
+	Escribir 'El Tercer valor ingresado fue: ', v3
+	Escribir 'El Cuarto valor ingresado fue: ', v4
+	Escribir 'El Quinto valor ingresado fue: ', v5
+	Escribir 'El Resultado de la suma es: ', Suma
+	Escribir 'El Resultado de la primera resta es: ', Restal
+	Escribir 'El Resultado de la segunda resta es: ', Resta2
+	Escribir 'El Resultado de la multiplicacion es: ', Mult
+	Escribir 'El Resultado de la division es: ', Div
+FinAlgoritmo

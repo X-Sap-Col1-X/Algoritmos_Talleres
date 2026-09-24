@@ -1,0 +1,14 @@
+Algoritmo suma_3_valores
+	Definir Valor1, Valor2, Valor3, Suma Como Real
+	Escribir 'Digite el Valorl, no se admiten letras ni numeros negativos'
+	Leer Valor1
+	Escribir 'Digite el Valor2, no se admiten letras ni numeros negativos'
+	Leer Valor2
+	Escribir 'Digite el Valor3, no se admiten letras ni numeros negativos'
+	Leer Valor3
+	Suma <- (Valor1+Valor2+Valor3)
+	Escribir 'El Primer valor ingresado fue: ', Valor1
+	Escribir 'El Segundo valor ingresado fue: ', Valor2
+	Escribir 'El Tercer valor ingresado fue: ', Valor3
+	Escribir 'El Resultado de la suma es: ', Suma
+FinAlgoritmo

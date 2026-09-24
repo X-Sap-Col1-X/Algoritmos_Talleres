@@ -1,0 +1,23 @@
+Algoritmo Factura
+	Definir precio, iva, precioBruto, descuento, total Como Real
+	
+    Escribir "Ingrese el precio de venta:"
+    Leer precio
+	
+    iva <- precio * 0.12
+	
+    precioBruto <- precio + iva
+	
+    Si precioBruto > 150000 Entonces
+        descuento <- precioBruto * 0.05
+    SiNo
+        descuento <- 0
+    FinSi
+	
+    total <- precioBruto - descuento
+	
+    Escribir "IVA: $", iva
+    Escribir "Precio bruto: $", precioBruto
+    Escribir "Descuento: $", descuento
+    Escribir "Valor total de la factura: $", total
+FinAlgoritmo

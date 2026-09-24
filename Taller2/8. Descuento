@@ -1,0 +1,17 @@
+Algoritmo Descuento
+	Definir Valor, Dcto, total Como Real
+	
+    Escribir "Ingrese el valor: "
+    Leer valor
+	
+    Si valor > 100000 Entonces
+        Dcto <- valor * 0.10
+    SiNo
+        Dcto <- valor * 0.02
+    FinSi
+	
+    total <- valor - Dcto
+	
+    Escribir "Descuento: $", Dcto
+    Escribir "Total a pagar: $", total
+FinAlgoritmo

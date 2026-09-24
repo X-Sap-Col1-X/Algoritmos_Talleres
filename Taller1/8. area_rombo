@@ -1,0 +1,9 @@
+Algoritmo area_rombo
+	Definir Dme, Dma, Area Como Real
+	Escribir 'Digite la Diagonal menor en numeros'
+	Leer De
+	Escribir 'Digite la Diagonal mayor en numeros'
+	Leer Dma
+	Area <- (Dme*Dma)/2
+	Escribir 'El Area del rombo es: ', Area
+FinAlgoritmo

@@ -1,0 +1,9 @@
+Algoritmo costo_automovil
+	Definir Preciovehiculo, PG, IPV, CT Como Real
+	Preciovehiculo <- 35000000
+	PG <- (35000000*0.12)
+	IPV <- (35000000*0.06)
+	CT <- (Preciovehiculo+PG+IPV)
+	Escribir 'El Precio de su vehiculo es: ', Preciovehiculo
+	Escribir 'El Costo total de su vehiculo es: ', CT
+FinAlgoritmo

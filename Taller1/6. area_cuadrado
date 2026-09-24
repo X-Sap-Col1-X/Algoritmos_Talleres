@@ -1,0 +1,9 @@
+Algoritmo area_cuadrado
+	Definir Lado1, Lado2, Areacuadrado Como Real
+	Escribir 'Escriba el Lado Vertical'
+	Leer Ladol
+	Escribir 'Escriba el Lado Horizontal'
+	Leer Lado2
+	Areacuadrado <- Lado1*Lado2
+	Escribir 'El Area del cuadrado es: ', Areacuadrado
+FinAlgoritmo

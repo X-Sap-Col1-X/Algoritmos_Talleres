@@ -1,0 +1,56 @@
+Algoritmo Cinco_Valores
+	Definir n1, n2, n3, n4, n5 Como Real
+	Definir suma, mayor, menor Como Real
+	
+	Escribir "Ingrese el primer valor: "
+	leer n1
+	Escribir "Ingrese el segundo valor:"
+	leer n2
+	Escribir "Ingrese el tercer valor: "
+	leer n3
+	Escribir "Ingrese el cuarto valor: "
+	leer n4
+	Escribir "Ingrese el quinto valor: "
+	leer n5
+	
+	suma <- n1+n2+n3+n4+n5
+	
+	mayor <- n1
+	menor <- n1
+	
+	Si n2 > mayor Entonces
+		mayor <- n2
+	Fin Si
+	
+	Si n3 > mayor Entonces
+		mayor <- n3
+	Fin Si
+	
+	Si n4 > mayor Entonces
+		mayor <- n4
+	Fin Si
+	
+	Si n5 > mayor Entonces
+		mayor <- n5
+	Fin Si
+	
+	Si n2 < menor Entonces
+        menor <- n2
+    FinSi
+	
+    Si n3 < menor Entonces
+        menor <- n3
+    FinSi
+	
+    Si n4 < menor Entonces
+        menor <- n4
+    FinSi
+	
+    Si n5 < menor Entonces
+        menor <- n5
+    FinSi
+	
+	Escribir "La suma es: ", suma
+    Escribir "El mayor es: ", mayor
+    Escribir "El menor es: ", menor
+FinAlgoritmo

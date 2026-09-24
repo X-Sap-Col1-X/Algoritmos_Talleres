@@ -1,0 +1,8 @@
+Algoritmo diez_porciento
+	Definir V, Porcentaje Como Real
+	Escribir 'Ingrese un Valor en numeros'
+	Leer V
+	Porcentaje <- V*0.10
+	Escribir 'El Valor ingresado es: ', V
+	Escribir 'El Diez porciento de su valor es: ', Porcentaje
+FinAlgoritmo

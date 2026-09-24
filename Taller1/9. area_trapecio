@@ -1,0 +1,11 @@
+Algoritmo area_trapecio
+	Definir Bme, Bma, H, Area Como Real
+	Escribir 'Digite la Base menor en numeros'
+	Leer Bme
+	Escribir 'Digite la Base mayor en numeros'
+	Leer Bma
+	Escribir 'Digite la Altura en numeros'
+	Leer H
+	Area <- ((BmetBma)/2)*H
+	Escribir 'El Area del trapecio es: ', Area
+FinAlgoritmo

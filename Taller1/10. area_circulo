@@ -1,0 +1,7 @@
+Algoritmo area_circulo
+	Definir Radio, Area Como Real
+	Escribir 'Digite el Radio en numeros'
+	Leer Radio
+	Area <- 3.1416*Radio12
+	Escribir 'El Area del circulo es: ', Area
+FinAlgoritmo

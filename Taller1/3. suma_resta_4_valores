@@ -1,0 +1,19 @@
+Algoritmo suma_resta_4_valores
+	Definir v1, v2, v3, v4, Suma, Resta Como Real
+	Escribir 'Por favor escriba un Valor 1, no se admiten letras'
+	Leer vl
+	Escribir 'Por favor escriba un Valor 2, no se admiten letras'
+	Leer v2
+	Escribir 'Por favor escriba un Valor 3, no se admiten letras'
+	Leer v3
+	Escribir 'Por favor escriba un Valor 4, no se admiten letras'
+	Leer v4
+	Suma <- (v1+v2+v3+v4)
+	Resta <- (Suma-v4)
+	Escribir 'El Primer valor ingresado fue:', v1
+	Escribir 'El Segundo valor ingresado fue:', v2
+	Escribir 'El Tercer valor ingresado fue:', v3
+	Escribir 'El Cuarto valor ingresado fue:', v4
+	Escribir 'El Resultado de la suma es:', Suma
+	Escribir 'El Resultado de la resta es:', Resta
+FinAlgoritmo

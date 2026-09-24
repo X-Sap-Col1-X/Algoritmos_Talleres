@@ -1,0 +1,9 @@
+Algoritmo area_rectangulo
+	Definir Base, Altura, Area Como Real
+	Escribir 'Digite una Base en numeros'
+	Leer Base
+	Escribir 'Digite una Altura en numeros'
+	Leer Altura
+	Area <- Base*Altura
+	Escribir 'El Area del rectangulo es: ', Area
+FinAlgoritmo

@@ -1,0 +1,18 @@
+Algoritmo conversiones_metros
+	Definir m, Km, Hm, Dam, Dm, Cm, Mm Como Real
+	Escribir 'Digite un valor en Metros'
+	Leer m
+	Km <- m/1000
+	Hm <- m/100
+	Dam <- m/10
+	Dm <- m*10
+	Cm <- m*100
+	Mm <- m*1000
+	Escribir 'El Valor ingresado en Metros fue: ', m
+	Escribir 'La Conversion en Kilo, etros fue: ', Km
+	Escribir 'La Conversion Hectometros fue: ', Hm
+	Escribir 'La Conversion Decametros fue: ', Dam
+	Escribir 'La Conversion Decimetros fue: ', Dm
+	Escribir 'La Conversion Centimetros fue: ', Cm
+	Escribir 'La Conversion Milimetros fue: ', Mm
+FinAlgoritmo
