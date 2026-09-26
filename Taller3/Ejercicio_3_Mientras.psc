@@ -5,7 +5,7 @@ Algoritmo Ejercicio_3_Mientras
 	i <- 1
 	Mientras i<=N Hacer
 		Escribir i
-		suma <- suma+1
+		suma <- suma+i
 		i <- i+1
 	FinMientras
 	Escribir 'La Suma es: ', suma
